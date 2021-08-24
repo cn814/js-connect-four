@@ -1,0 +1,37 @@
+/* board styles */
+
+#board td {
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+}
+
+/* game piece styles */
+
+.piece {
+    margin: 5px;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%; /*circle?*/
+}
+
+/* player 1 piece color */
+
+.piece.p1{
+    background-color: yellow;
+}
+
+/*player 2 piece color */
+
+.piece.p2{
+    background-color: red;
+}
+
+/*clickable area styles */
+#header td {
+    border:double 1px lightslategray;
+    }
+
+#header td:hover{
+    background-color: skyblue;
+}
