@@ -4,6 +4,10 @@
     width: 50px;
     height: 50px;
     border: solid 2px black;
+    background-color: lightgrey;
+    opacity: 1;
+    transition: opacity 500ms linear;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 /* game piece styles */
@@ -28,10 +32,11 @@
 }
 
 /*clickable area styles */
-#header td {
+
+#column-top td {
     border:double 1px lightslategray;
     }
 
-#header td:hover{
+#column-top td:hover{
     background-color: skyblue;
 }
