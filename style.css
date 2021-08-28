@@ -10,6 +10,28 @@
     box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+h1 {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
+
+h4 {
+    text-align: center;
+    color: yellow;
+    background-color: red;
+}
+
+h5 {
+    text-align: center;
+}
+
+.game {
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
 /* game piece styles */
 
 .piece {
